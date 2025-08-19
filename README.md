@@ -69,7 +69,7 @@ python detect.py --source path/to/video_or_image --weights runs/train/best.pt
 ---
 
 ## 👨‍💻 Contributors
-- **[Your Name]** — Data collection, preprocessing, model training, performance evaluation  
+- **[Vaibhav Sharma](https://github.com/torq125)** — Data collection, preprocessing, model training, performance evaluation  
 - **[Shivam Kushwaha](https://github.com/ShivamKushwaha20)** — Deployment pipeline and integration  
 
 ---
