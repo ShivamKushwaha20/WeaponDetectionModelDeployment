@@ -35,13 +35,13 @@ The objective of the project is to provide a real-time weapon detection solution
 ## 📦 Installation & Usage
 
 ### 1. Clone the Repository:
-```git clone <your-repo-link>.git```
+```git clone <your-repo-link>.git```<br/>
 ```cd weapon-detection-yolov11```
 
 
 ### 2. Create a Virtual Environment:
-```python -m venv myvenv```
-```source myvenv/bin/activate # On Mac/Linux```
+```python -m venv myvenv```<br/>
+```source myvenv/bin/activate # On Mac/Linux```<br/>
 ```myvenv\Scripts\activate # On Windows```
 
 
@@ -49,8 +49,8 @@ The objective of the project is to provide a real-time weapon detection solution
 ```pip install -r requirements.txt```
 
 
-### 4. Run Inference:
-```python detect.py --source path/to/video_or_image --weights runs/train/best.pt```
+### 4. Run the Flask App:
+```python app.py```
 
 
 ---
@@ -58,13 +58,18 @@ The objective of the project is to provide a real-time weapon detection solution
 ## 📊 Results
 - **Model Accuracy:** ~90% mAP  
 - **Objects Detected:** Pistols, Knives  
-- **Output:** Detected objects are highlighted with bounding boxes in video or image streams  
+- **Outputs:** Detected objects are highlighted with bounding boxes in video or image streams
+  
+![--------_------_jpg rf 4eb0868f6cd41827c921043ddfa37ff9](https://github.com/user-attachments/assets/24687b56-2e8f-468d-a68e-f097b5df189d)
+![445_jpg rf 2e04379013684f454abbc00564910fcc](https://github.com/user-attachments/assets/a233e2a2-6f4b-47d5-980b-ab4663821c7e)
+![armas--1118-_jpg rf 822747298e61e608e1a7c545effeade3](https://github.com/user-attachments/assets/9192c091-e17c-4eb7-932a-295522c1e980)
+![armas--1172-_jpg rf cf59adba26d811d154f10f64ea781427](https://github.com/user-attachments/assets/e34c012a-c53b-4b73-8be5-e47e87e6e6d2)
+
 
 ---
 
-## 📎 Deployment
-- **GitHub Repo:** [Placeholder Link]  
-- **Online Deployment:** *Planned using Flask for web-based inference*  
+## 📂 Code Repository
+- **GitHub Repo (Inference Code & Model Training Results):** [https://github.com/ShivamKushwaha20/Weapon_detection_system]
 
 ---
 
