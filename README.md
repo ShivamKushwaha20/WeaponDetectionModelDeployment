@@ -35,22 +35,22 @@ The objective of the project is to provide a real-time weapon detection solution
 ## 📦 Installation & Usage
 
 ### 1. Clone the Repository:
-git clone <your-repo-link>.git
-cd weapon-detection-yolov11
+```git clone <your-repo-link>.git```
+```cd weapon-detection-yolov11```
 
 
 ### 2. Create a Virtual Environment:
-python -m venv myvenv
-source myvenv/bin/activate # On Mac/Linux
-myvenv\Scripts\activate # On Windows
+```python -m venv myvenv```
+```source myvenv/bin/activate # On Mac/Linux```
+```myvenv\Scripts\activate # On Windows```
 
 
 ### 3. Install Dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 ### 4. Run Inference:
-python detect.py --source path/to/video_or_image --weights runs/train/best.pt
+```python detect.py --source path/to/video_or_image --weights runs/train/best.pt```
 
 
 ---
